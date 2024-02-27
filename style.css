@@ -1,0 +1,236 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "unispace", sans-serif;
+}
+<!-----------------home--------------------->
+.container {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: #1D201F;
+}
+nav {
+	display: flex;
+	width: 84%;
+	margin: auto;
+	padding: 40px 0;
+	align-items: center;
+	justify-content: space-between;
+}
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 10px 20px;
+	font-size: 22px;
+ }
+nav ul li a {
+	text-decoration: none;
+	color: #00A878;
+	font-size: 22px;
+}
+nav ul li a:hover {
+	text-decoration: underline;
+	font-size: 22px;
+}
+nav ul li a:active {
+	color: #B76A8A;
+	font-size: 22px;
+}
+nav ul li a:visited; {
+	color: #A9927D;
+	font-size: 22px;
+}
+.talon {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-left: 5%;
+	margin-top: 2%;
+}
+.talon h1 {
+	font-size: 75px;
+}
+.talon p {
+	font-size: 30px;
+	color: #B76A8A;
+}
+.talon {
+	height: auto;
+	width: auto;
+}
+.sticky-footer {
+	position: fixed;
+	left: 43vw;
+	bottom: 10px;
+	box-sizing: border-box;
+}
+#foot-logo {
+	width: 107px;
+}
+.sticky-footer p {
+	font-size: 13px;
+}
+<!--------------renders--------------------->
+.renders {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: #1D201F;
+	transition: all .5s ease;
+}
+.render_gallery {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 2%;
+	margin-left: 3%;
+	margin-right: 2%;
+}
+.render_gallery h3 {
+	margin-bottom: 2px;
+}
+.render_gallery .column1 {
+	display: flex;
+	flex-direction: column;
+	width: 52%;
+}
+#topimg1 {
+	position: relative;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	transition: all .5s ease;
+	width: 52%;
+}
+.render_gallery .column2 {
+	display: flex;
+	flex-direction: column;
+	width: 52%;
+}
+.render_gallery .column1 img{
+	width: 95%;
+	padding-bottom: 25px;
+	border-radius: 5px;
+}
+.render_gallery .column2 img{
+	width: 95%;
+	padding-bottom: 25px;
+	border-radius: 5px;
+}
+span {
+	color: #B76A8A;
+}
+<!-----------------music--------------------->
+.music {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: #1D201F;
+}
+iframe {
+	margin-bottom:15px;
+}
+<!--------------photography----------------->
+.photography {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: #1D201F;
+}
+.photo_gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2%;
+  margin-left: 3%;
+  margin-right: 2%;
+}
+.photo_gallery .nature {
+	display: flex;
+	flex-direction: column;
+	width: 95%;
+}
+.photo_gallery .landscape {
+	display: flex;
+	flex-direction: column;
+	width: 95%;
+}
+.photo_gallery .city {
+	display: flex;
+	flex-direction: column;
+	width: 95%;
+}
+.photo_gallery .nature img{
+	width: 95%;
+	padding-bottom: 25px;
+	border-radius: 5px;
+}
+.photo_gallery .landscape img{
+	width: 95%;
+	padding-bottom: 25px;
+	border-radius: 5px;
+}
+.photo_gallery .city img{
+	width: 95%;
+	padding-bottom: 25px;
+	border-radius: 5px;
+}
+<!-----------------about-------------->
+.about {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: #1D201F;
+}
+.about_info {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-left: 5%;
+	margin-top: 3%;
+	margin-bottom: 1%;
+}
+.about_text {
+	padding: 20px;
+	font-size: 18px;
+	color: #F2F4F3;
+	background: #2C312F;
+}
+.about_text p{
+	margin-bottom: 25px;
+}
+<!-----------------references-------------->
+.references {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: #1D201F;
+}
+.reference_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 25vh;
+  margin-left: 20vw;
+  margin-right: 28vw;
+}
+.reference_list h3{
+	text-decoration: underline;
+	margin-bottom: 15px;
+	font-size: 20px;
+	color: #F2F4F3;
+}
+.reference_list li{
+	margin-bottom: 7px;
+}
+.reference_list ul li a {
+	text-decoration: none;
+	color: #B76A8A;
+}
+.reference_list ul li a:hover {
+	text-decoration: underline;
+}
+.reference_list ul li a:active {
+	color: #00A878;
+}
